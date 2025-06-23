@@ -29,7 +29,7 @@ public class NaturalPerson extends Person {
 		}else {
 			basicTax = getAnnualIncome() * 0.25;
 		}
-		basicTax = basicTax - (getAnnualIncome() * 0.5);
+		basicTax = basicTax - (getHealthcareExpenses() * 0.5);
 		return basicTax;
 	}
 
