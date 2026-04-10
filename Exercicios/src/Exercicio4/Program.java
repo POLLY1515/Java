@@ -1,5 +1,7 @@
 package Exercicio4;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 public class Program {
@@ -27,7 +29,20 @@ public class Program {
 		
 		System.out.println("Media: " + media);
 		
+		/*===========================================================*/
+
+		//Use ArrayList para guardar 5 nomes e depois imprimir todos com for-each.
 		
+		List<String> nomes = new ArrayList<>();
+		nomes.add("Poliana");
+		nomes.add("Matheus");
+		nomes.add("Miguel");
+		nomes.add("Flavio");
+		nomes.add("luiz");
+		
+		for (String pessoas : nomes) {
+		 System.out.println("Nome: " + pessoas);	
+		}
 		
 		
 	}
